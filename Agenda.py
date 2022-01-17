@@ -18,10 +18,29 @@ def mostrar_contatos():
 
 
 def buscar_contato(contato):
+    print('_____________________________________________')
     print('Nome:', contato)
     print('Telefone:', AGENDA[contato]['telefone'])
     print('E-Mail:', AGENDA[contato]['email'])
     print('Endereco:', AGENDA[contato]['endereco'])
-    print('______________')
+    print('_____________________________________________')
+    print('')
 
-buscar_contato('Graziela')
+
+def incluir_contato(contato, telefone, email, endereco):
+    AGENDA[contato] = {
+        'telefone': telefone,
+        'email': email,
+        'endereco': endereco,
+    }
+    print('###################################################')
+    print('Contato {} adicionado com sucesso!'.format(contato))
+    print('###################################################')
+    print('')
+
+
+print('')
+mostrar_contatos()
+print('')
+incluir_contato('Joao', '11-965754568', 'jao@zica.co', 'Rua dos Bobos, 0')
+buscar_contato('Joao')
