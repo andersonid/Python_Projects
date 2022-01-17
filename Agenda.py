@@ -1,13 +1,13 @@
 AGENDA = {}
 
 AGENDA['Anderson'] = {
-    'telefone': '11-970355726',
+    'telefone': '11-97035-5726',
     'email': 'nobre.it@gmail.com',
     'endereco': 'Rua Taquacetuba, 201',
 }
 
 AGENDA['Graziela'] = {
-    'telefone': '11-972204544',
+    'telefone': '11-97220-4544',
     'email': 'graziela.claro@gmail.com',
     'endereco': 'Rua Taquacetuba, 171',
 }
@@ -42,5 +42,5 @@ def incluir_contato(contato, telefone, email, endereco):
 print('')
 mostrar_contatos()
 print('')
-incluir_contato('Joao', '11-965754568', 'jao@zica.co', 'Rua dos Bobos, 0')
+incluir_contato('Joao', '11-96575-4568', 'jao@zica.co', 'Rua dos Bobos, 0')
 buscar_contato('Joao')
