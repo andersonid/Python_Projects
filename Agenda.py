@@ -1,3 +1,3 @@
-AGENDA = {
-    
-}
+AGENDA = {}
+
+nome = "Anderson"
