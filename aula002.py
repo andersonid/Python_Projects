@@ -40,7 +40,6 @@ def buscar_lead(lead):
     print(' Telefone:', LEADS[lead]['telefone'])
     print(' E-mail:', LEADS[lead]['email'])
     print('===================================')
-    buscar_lead(input('Digite o nome a pesquisar: '))
 
 
 def add_lead(lead, telefone, email):
